@@ -21,8 +21,8 @@ menu()
 
 let option = readLine()
 
-let board = [1, 3, 2,
-             0, 4, 5,
+let board = [1, 2, 0,
+             3, 4, 5,
              6, 7, 8]
 
 let node = Node<Int>(initialBoard: board)
